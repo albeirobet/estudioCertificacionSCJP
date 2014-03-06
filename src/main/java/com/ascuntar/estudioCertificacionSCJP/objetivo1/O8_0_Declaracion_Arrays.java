@@ -29,7 +29,32 @@ public class O8_0_Declaracion_Arrays {
 	Thread [] threads2; //Legal pero menos legible
 
 	/**
-	Podemos tambien declarar arrays multidimensionales, 
+	Podemos tambien declarar arrays multidimensionales, que son en realidad arrays de arrays. Esto
+	se puede hacer de la siguiente manera.
 	 */
+	
+	String [][][] occupantName;
+	String [] hola [][];
+	String hola2 [][][];
+	String [][]hola3[];
+	String [][][] hola4;
+	String [][] managerName;
+	
+	/**
+	Las primeras cinco declaraciones son ejemplos de un array tridimensional, hay que tener en cuenta
+	que aunque las cinco formas de declaracion son legales solo la primera es correcta y es la mas
+	legible. La ultima declaracion es un array bidimensional.
+	
+	NOTA IMPORTANTE: Nunca es legal incluir el tamaño de la matriz en la declaracion. Esto tal vez
+	se puede hacer en otros lenguajes de programacion asi que es posible que salgan preguntas de este
+	tipo.
+	
+	int [5] notas;
+	
+	EL codigo anterior no se compilará. Recuerde que la JVM no asigna espacio en memoria hasta que en
+	realidad se crea una instancia del objeto matriz. Es en este momento cuando el tamaño de verdad
+	importa.
+	 */
+	
 	
 }
